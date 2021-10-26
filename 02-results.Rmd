@@ -1,0 +1,139 @@
+# Results
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+
+# clear environment
+rm(list=ls())
+
+# load packages
+library(bookdown)
+library(tinytex)
+library(tidyverse)
+library(googlesheets4)
+library(lubridate)
+library(readr)
+library(readxl)
+library(writexl)
+library(hms)
+library(plotly)
+library(DT)
+library(xlsx)
+library(leaflet)
+library(DT)
+library(ggpubr)
+library(plotrix)
+library(packrat)
+library(foreign)
+library(kableExtra)
+
+# set plotting themes
+
+## geom_col plots theme
+col_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
+                   strip.text = element_text(size = 14, face = "bold"),
+                   legend.title = element_text(size = 14, face = "bold"),
+                   legend.text = element_text(size = 14),
+                   axis.text = element_text(size = 14))
+
+## geom_points plots theme
+points_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
+                   strip.text = element_text(size = 14, face = "bold"),
+                   legend.title = element_text(size = 14, face = "bold"),
+                   legend.text = element_text(size = 14),
+                   axis.text = element_text(size = 11, face = "bold"),
+                   title = element_text(size = 18))
+
+# function to exclude multiple items per column
+'%ni%' <- Negate('%in%')
+
+# clarify select function
+select <- dplyr::select
+```
+
+```{r}
+
+## total number of sites with anad species ("n of x sites had newly id'd spp")
+
+##
+
+```
+
+```{r, echo = F}
+# summarise total capture effort
+
+## read in 
+url <- "https://docs.google.com/spreadsheets/d/1S0hwY4EQo9Xtz5d4UnSBCbZoJ0ft_HGQrarfmA5dwNY/edit#gid=0"
+
+## prep data sources
+
+### sample events
+sample_events <- read_sheet(url, sheet =  "A_Sample_Event") %>%
+  transform(site_arrive_time = as_hms(site_arrive_time),
+            site_depart_time = as_hms(site_depart_time)) %>%
+  select(-QC1,-QC2,-data_entry,-notes,-crew)
+
+### fish count
+fish_dat <- read_sheet(url, sheet = "F_Fish_ID") 
+
+
+### how many unique sampling events (unique date/site) did we have in 2021?
+n_events <- sample_events%>%
+  group_by(site,site_arrive_time) %>%
+  tally() %>%
+  nrow() %>%
+  as.character()
+
+
+### number of sites
+n_sites <- sample_events %>%
+  group_by(site) %>%
+  tally() %>%
+  nrow() %>%
+  as.character()
+
+### total fish
+fish_ct <- fish_dat %>%
+  summarise(n = sum(count)) %>%
+  as.character()
+
+### total unique species
+spp_ct <- fish_dat %>%
+  group_by(species) %>%
+  summarise(n = sum(count)) %>%
+  nrow() %>%
+  as.character()
+
+### count by species
+spp_ct_n <- fish_dat %>%
+  group_by(species) %>%
+  summarise(n = sum(count))
+```
+
+#### Fish capture
+
+Since project initiation in summer 2021:
+
+-   We have conducted a total of `r n_events` sampling events at `r n_sites` unique sites.
+
+-   We have captured `r fish_ct` fish comprised of `r spp_ct` unique species.
+
+-   
+
+
+
+
+
+```{r ct_tbl, echo = F, fig.cap = "Total fish capture count by species"}
+
+knitr::kable(spp_ct_n, booktabs =T, caption = "caption")
+
+# table will not successfully cross reference; silent error
+
+```
+
+Table \@ref(tab:ct_tbl) ... 
+
+<br>
+
+#### Mapped habitat expansion
