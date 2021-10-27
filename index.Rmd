@@ -76,13 +76,13 @@ select <- dplyr::select
 
 This document contains preliminary data and analysis related to Alaska Sustainable Salmon Fund project #54014, "Expanding and Corroborating the Known Extent of Anadromous Waters Throughout the Kenai Peninsula."
 
-#### Synopsis
+## Synopsis
 
 The Kenai Peninsula's watersheds are significant producers of Pacific salmon. Critical to Alaska's economic and cultural wellbeing, these salmon support fisheries both inland and throughout Cook Inlet. This project is documenting anadromous spawning, rearing, and migrating salmon in order to increase the anadromous waters recognized in the Alaska Department of Fish and Game's (ADF&G's) Catalog of Waters Important for the Spawning, Rearing or Migration of Anadromous Fishes (AWC). The AWC is Alaska's most powerful tool for regulating, protecting, and conserving anadromous fish habitat.
 
 <br>
 
-#### Introduction
+## Introduction
 
 Salmon are intrinsic to the cultural and economic wellbeing of Alaska, but cannot persist on the landscape without healthy habitat. Through strategic conservation efforts, riparian and instream habitat can continue to maintain salmon populations as well as transport marine-derived nutrients; maintain hydrology; provide contiguous green space for recreation and access, cultural resource protection, plant dispersal, and wildlife movement; connect existing protected areas; and provide refuge during a rapidly changing climate. In recognition of the importance of protecting anadromous fish habitat, the State of Alaska enacted Alaska Statute 16.05.871, Protection of Fish and Game, which requires the state to list rivers, lakes, and streams important for the spawning, rearing, or migration of anadromous fish, while also requiring the prior approval of construction or use of said waterbody that may result in adverse effects on salmon populations. In response, ADF&G began overseeing the AWC whose data is now publicly hosted online for resource managers and interested members of the public to utilize.
 
@@ -96,7 +96,7 @@ KWF will also leverage fish trapping fieldwork to gather additional data for oth
 
 <br>
 
-#### Objectives
+## Objectives
 
 -   Submit nominations to increase anadromous stream, river, lake, and wetland coverage in the AWC and corresponding atlas
 

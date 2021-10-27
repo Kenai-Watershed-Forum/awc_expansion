@@ -50,7 +50,7 @@ points_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
 select <- dplyr::select
 ```
 
-#### Site selection
+## Site selection
 
 Fish trapping sites are identified using KWF's database and further prioritized using the following criteria:
 
@@ -70,26 +70,20 @@ Fish trapping sites are identified using KWF's database and further prioritized 
 
 -   Unassessed anadromous fish habitat located on tributaries or mainstem waterbodies supporting subsistence fisheries
 
-
-
-The project study map may be accessed by following the link at <https://arcg.is/OLbTn> or in the interactive figure below. Click on the symbol in the upper right hand corner to see the legend and toggle layers on/off.
-
+The project study map may be accessed by following the link at [ArcGIS Online](https://kwf.maps.arcgis.com/apps/webappviewer/index.html?id=ef6e57e2b94c424780b71decf08d50da&extent=-16891358.3246%2C8496162.7219%2C-16658378.2624%2C8619532.0855%2C102100) or in the interactive figure below. Click on the symbol in the upper right hand corner to see the legend and toggle layers on/off.
 
 <iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/Kji4r">
 
-
-
-Prior to minnow trap deployment, we obtained all necessary permits from ADF&G including the Aquatic Resource Permit (ARP). As required by the ARP, the ADF&G local Area Management Biologist (AMB) was notified of trapping locations and timeframes before going into the field. We also obtained landowner permission for access to sites. Finally, trapping efforts for each day were strategically chosen based on proximity of sites so as to reduce drive and personnel time. 
-
-#### Fish capture method
-We used commercial salmon eggs will be as bait and placed them in perforated 2-4 oz Whirl-Paks in order to prevent egg consumption by fish. We labeled traps with KWF contact information using brightly colored flagging tape. At the trapping location, we collected site photos and recorded the following will be recorded on a datasheet: field technician initials, GPS coordinates of trap deployment site(s), and site drawings with pertinent notes regarding fish habitat. We used a minimum of one baited minnow trap, fully submerged in a discrete location, and properly secured to ensure retrieval. We recorded the date and time of deployment. While not exceeding 24 hours, we generally allowed traps to soak overnight. Upon trap retrieval, we recorded the date and time and the trap's contents will be transferred into a bucket of water. We identified each fish to lowest feasible taxa and life stage. We recorded disposition; and in some cases recorded fork length to the nearest millimeter along with photos of identifying features. When completed, we placed fish in a recovery bucket. Once all fish recuperated successfully, we released them near the original trap location. We monitored data throughout the summer for unitended mortalities, and were prepared to cease sampling and contact the area management biologist should \>10% unintended collection mortality occur. We entered all data into the Aquatic Resource Permit spreadsheet provided by the ADF&G and will submit with a written report to ADF&G at the conclusion of each permit year.
-
-These data will then be utilized to submit nominations for the inclusion of new miles or acres of fish habitat to the AWC as well as revision or corroboration of fish presence.
-
-
-
 </iframe>
 
-## Site selection methods
+Prior to minnow trap deployment, we obtained all necessary permits from ADF&G including the Aquatic Resource Permit (ARP). As required by the ARP, the ADF&G local Area Management Biologist was notified of trapping locations and timeframes before going into the field. We also obtained landowner permission for access to sites. Finally, trapping efforts for each day were strategically chosen based on proximity of sites so as to reduce drive and personnel time.
 
-## Fish Survey Methods
+## Fish capture
+
+We used commercial salmon eggs will be as bait and placed them in perforated 2-4 oz Whirl-Paks in order to prevent egg consumption by fish. We labeled traps with KWF contact information using brightly colored flagging tape. At the trapping location, we collected site photos and recorded the following will be recorded on a datasheet: field technician initials, GPS coordinates of trap deployment site(s), and site drawings with pertinent notes regarding fish habitat. We used a minimum of one baited minnow trap, fully submerged in a discrete location, and properly secured to ensure retrieval. We recorded the date and time of deployment. While not exceeding 24 hours, we generally allowed traps to soak overnight. Upon trap retrieval, we recorded the date and time and the trap's contents will be transferred into a bucket of water. We identified each fish to lowest feasible taxa and life stage. We recorded disposition; and in some cases recorded fork length to the nearest millimeter along with photos of identifying features. When completed, we placed fish in a recovery bucket. Once all fish recuperated successfully, we released them near the original trap location. We monitored data throughout the summer for unitended mortalities, and were prepared to cease sampling and contact the area management biologist should \>10% unintended collection mortality occur. We entered all data into the Aquatic Resource Permit spreadsheet provided by the ADF&G and will submit with a written report to ADF&G at the conclusion of each permit year.
+
+These data will be utilized to submit nominations for the inclusion of new miles or acres of fish habitat to the AWC as well as revision or corroboration of fish presence.
+
+## Habitat connectivity
+
+In some cases where maps indicated a strong likelihood of anadromous habitat that we did not detect, we visited sites within the drainage where potential barriers to fish passage may exist such as road crossings or modified lake outlets. We photographed and recorded coordinates at these locations if potential fish barriers were apparent.

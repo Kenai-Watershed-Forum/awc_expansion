@@ -1,23 +1,62 @@
 # Discussion
 
+## 2021 Fieldwork Summary
 
-General - challenge to recognize sites with potential .. plannig to collaborate with adfg to expand field sites list
+### Anadromous habitat surveys
 
+In summer 2021 we surveyed sites primarily in the region North of Kenai/Soldotna within an hour's walking distance of the road system. In some cases where employees of Kenai Watershed Forum were visiting remote fly-in locations for fieldwork on separate projects, they also surveyed for presence of anadromous fish thus leveraging resources among projects.
+
+Survey site selections were made primarily by visually assessing the overlaid map layers of the Anadromous Waters Catalog with the [USGS National Hydrography Database](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) (NHD). In areas where previously documented anadromous stream or lake extents ended but connected waterbodies continued upstream, we targeted sites suitable for minnow trapping and/or hook and line survey.
+
+In one case, KWF was notified of a potentially important sampling location by colleagues with state and federal agencies. At this site, a stream segment that had not yet been documented as anadromous had been excavated by a landowner several weeks prior. KWF was able to document the resultant disturbed stream channel as anadromous. These efforts are further detailed below in the section [Highlights: Soldotna Creek Tributary](###%20Highlight:%20Soldotna%20Creek%20Tributary).
+
+At most sites surveyed in the North Kenai/Nikiski areas, we captured primarily non-anadromous species such as stickleback and sculpin. We also captured some resident salmonid species such as Dolly Varden and Rainbow Trout.
+
+These results support several conclusions that will direct future fieldwork efforts into summer 2022:
+
+-   A need exists to modify methods for survey site selection. Relying on visual assessment of overlay between documented AWC habitat and the NHD map may be insufficient as a prospecting guide for yet-unidentified anadromous waters. Early discussions in Fall 2021 with personnel at ADF&G's Habitat Division in Anchorage have yielded valuable insight and potential for collaboration. KWF will work with ADF&G in winter 2021/2022 to further refine fieldwork site selection.
+
+-   Some drainages in the North Kenai/Nikiski area that may have been historically anadromous have man-made barriers to fish passage that we identified in Summer 2021. Two such examples are discussed further in XXX. Identifying fish passage barrier sites is an important first step in determining if restoration feasible.
+
+-   The task of documenting yet-unidentified anadromous habitat is particularly urgent in watersheds encompassing urban and suburban areas.
 
 #### Highlight: Soldotna Creek Tributary
 
+KWF was notified of a previously undocumented tributary segment in the Soldotna Creek drainage in July 2021. The tributary was documented as anadromous up to a road crossing approximately 100 m upstream from the Soldotna Creek mainstem, but the stream channel continued beyond. The stream segment upstream of the road crossing had been recently excavated as part of a new development project, but it was suspected that the modified channel still supported fish populations. KWF staff placed minnow traps at the most upstream locations where the traps could still be submerged. Over the course of several site visits we captured a total of 65 Coho Salmon and five Dolly Varden. 
 
-#### Highlight: collaborations
+KWF submitted these data in ADFG's September 2021 call for data, and documented the approximate paths of existing stream channels supported by several dozen ground-truthing photos. These data are displayed in the map figure below, and are also accessible at [ArcGIS Online](https://www.arcgis.com/apps/webappviewer/index.html?id=04f8f5082147442bae030507a303b686&extent=-16811989.9598%2C8510367.6671%2C-16810169.803%2C8511166.6729%2C102100&showLayers=csv_417%3BconvertedByApolloMapping_1__shapefile_6944_0%3BAWC_2020_Layers_9843%3BWetlands_6390_0%3BWetlands_6390_1%3Bnhd_1571_2%3Bnhd_1571_3%3Bnhd_1571_4%3Bnhd_1571_5%3Bnhd_1571_6).
 
-- TU
-- Salamatof
-- KWF education
-- tandem w/ elodea surveys
+<iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/1XO9n5"></iframe>
+
+The post-hoc documentation of this previously unidentified salmon stream after it has been altered emphasizes the need for continued thorough efforts to document anadromous habitat, particularly in watersheds experiencing growth and development.
+
+<br>
+
+#### Highlight: Habitat Connectivity
+
+IN the 
+
+
+#### Highlight: Collaborations
+
+-   TU
+-   Salamatof
+-   KWF education
+-   tandem w/ elodea surveys
+-   recognizing broken connections \@ suneva and salamataof
 
 -- covid challeneges
 
-#### Future work - 
+### Outreach and other activities
+
+In addition to fieldwork efforts aimed at prospecting for unidentified anadromous waters, having personnel mobilized and trained in juvenile fish identification and capture methods allowed for support in two additional efforts:
+
+-   **Education**. In 2021 KWF oversaw 12 fish sampling events aimed exclusively at education and outreach, occurring primarily at Lower Soldotna Creek. These events introduced basic facts about wild salmon life history and habitat to local community members, visitors, journalists, and summer campers. Total participants is estimated in excess of one hundred people.
+
+-   **Culvert replacement**. In summer 2021 KWF oversaw construction activities to replace the culvert carrying the North Fork of the Anchor River underneath Niklovaesk road in the Anchor Point area. As part of these efforts, a small segment of river channel is temporarily de-watered thus fish in this segment must be captured and released downstream prior. KWF personnel was able to capture n = 329 juvenile fish as part of these fish rescue efforts.
+
+### Future work
 
 collab w/ adfg to id sites ... caribou hills
 
-
+contnuing thru summer 2022
