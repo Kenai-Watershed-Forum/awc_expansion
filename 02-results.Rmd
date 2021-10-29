@@ -51,11 +51,14 @@ points_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
 select <- dplyr::select
 ```
 
-```{r}
+```{r, echo = F}
+
+
+# notes 
 
 ## total number of sites with anad species ("n of x sites had newly id'd spp")
 
-##
+## 
 
 ```
 
@@ -135,15 +138,15 @@ site_spp_ct[is.na(site_spp_ct)] <- 0
 
 ```
 
-All fishing effort and capture results are current as of `r Sys.Date()`.
+Note: all fishing effort and capture results are current as of `r Sys.Date()`.
 
 ## Fish capture
 
 Since initiation of fieldwork in summer 2021:
 
--   We have conducted a total of `r n_events` sampling events at `r n_sites_total` unique sites. See the project map in the Methods section ("[Site selection](##%20Site%20selection)") for a current summary of where and sampling events have occurred.
+-   We have conducted a total of `r n_events` sampling events at `r n_sites_total` unique sites. See the project map in the Methods section ("[Site selection](##%20Site%20selection)") for a current summary of where and when sampling events have occurred.
 
-    -   Table \@ref(tab:site-visits) summarises total site visits by individual site. We typically sampled a site only one time, with the exception of two sites: "Lower Soldotna Creek", and "Soldotna Creek Parcel." Both of these sites are highlighted in further detail in the "Discussion" section.
+    -   Table \@ref(tab:site-visits) summarises total samping events by individual site. We typically sampled a site only one time each in summer 2021, with the exception of two sites: "Lower Soldotna Creek", and "Soldotna Creek Parcel." Both of these sites are highlighted in further detail in the "Discussion" section.
 
 -   We have captured `r fish_ct` fish comprised of `r spp_ct` unique species. Table \@ref(tab:ct) summarizes current fish capture count by species.
 
