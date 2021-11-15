@@ -1,5 +1,5 @@
 --- 
-title: "Expanding and Corroborating the Known Extent of Anadromous Waters
+title: "Trout Unlimited Embrace-a-Stream: Expanding and Corroborating the Known Extent of Anadromous Waters
 Throughout the Kenai Peninsula"
 author: "Benjamin Meyer, Kenai Watershed Forum"
 date: "`r Sys.Date()`"
