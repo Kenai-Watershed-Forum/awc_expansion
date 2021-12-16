@@ -1,5 +1,5 @@
 --- 
-title: "Trout Unlimited Embrace-a-Stream: Expanding and Corroborating the Known Extent of Anadromous Waters
+title: "Expanding and Corroborating the Known Extent of Anadromous Waters
 Throughout the Kenai Peninsula"
 author: "Benjamin Meyer, Kenai Watershed Forum"
 date: "`r Sys.Date()`"
@@ -11,10 +11,17 @@ biblio-style: apalike
 link-citations: yes
 github-repo: 'https\://bookdown.org/kwfwqx/awc_expansion/'
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+always_allow_html: yes
 ---
 
 
 # Introduction
+
+```{r juv-salmon1, echo = F, fig.cap = "Juvenile Coho Salmon", out.width=550, out.height=400}
+
+knitr::include_graphics('images/juv_coho1.jpeg')
+
+```
 
 ```{r , include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
@@ -41,6 +48,8 @@ library(ggpubr)
 library(plotrix)
 library(packrat)
 library(foreign)
+library(webshot)
+webshot::install_phantomjs()
 
 # set plotting themes
 

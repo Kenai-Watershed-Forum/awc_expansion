@@ -14,7 +14,7 @@ At most sites surveyed in the North Kenai/Nikiski areas, we captured primarily n
 
 These results support several conclusions that will direct future fieldwork efforts into summer 2022:
 
--   A need exists to modify methods for survey site selection. Relying on visual assessment of overlay between documented AWC habitat and the NHD map may be insufficient as a prospecting guide for yet-unidentified anadromous waters. Early discussions in Fall 2021 with personnel at ADF&G's Habitat Division in Anchorage have yielded valuable insight and potential for collaboration. KWF will work with ADF&G in winter 2021/2022 to further refine fieldwork site selection.
+-   A need exists to refine methods for survey site selection. Relying on visual assessment of overlay between documented AWC habitat and the NHD map may be insufficient as a prospecting guide for yet-unidentified anadromous waters. Early discussions in Fall 2021 with personnel at ADF&G's Habitat Division in Anchorage have yielded valuable insight and potential for collaboration. KWF will work with ADF&G in winter 2021/2022 to further refine fieldwork site selection.
 
 -   Some drainages in the North Kenai/Nikiski area that may have been historically anadromous have man-made barriers to fish passage that we identified in Summer 2021. Two such examples are discussed further in the section below, [Highlight: Habitat Connectivity](####%20Highlight:%20Habitat%20Connectivity). Identifying fish passage barrier sites is an important first step in determining if restoration feasible.
 
@@ -46,7 +46,7 @@ In two cases where map interpretation suggested presence of salmonids but we cap
 
     A site visit to the mouth of the creek flowing from Suneva Lake at its outlet at Cook Inlet will help determine if the waterway has potential to host anadromous species and may be part of future fieldwork.
 
-```{r suneva-outlet, echo = F, fig.cap = "Perched culvert near outlet of Suneva Lake, intersection with Sockeye Avenue, ", out.width=400, out.height=400, out.extra="style='transform:rotate(90deg);'"}
+```{r suneva-outlet, echo = F, fig.cap = "Perched culvert near outlet of Suneva Lake, intersection with Sockeye Avenue, ", out.width=400, out.height=400, out.extra= "angle = 90"}
 
 knitr::include_graphics('images/suneva_culvert.png')
 
@@ -59,9 +59,9 @@ We visited the location where maps indicated that Salamatof Creek crosses the Ke
 
 At the road crossing we observed a culvert passage for Salamatof Creek below the highway, but no flowing water. The visible nearby body of water at this location appeared to be lotic in nature, and no outflow was readily evident.
 
-```{r salamatof-creek, echo = F, fig.cap = "Salamatof Creek drainange, North of Kenai, Alaska.", out.width=400, out.height=400}
+```{r salamatof-creek, echo = F, fig.cap = "Salamatof Creek drainange, North of Kenai, Alaska. Red X indicates location of fish passage barrier.", out.width=400, out.height=400}
 
-knitr::include_graphics('images/salamatof_map.jpg')
+knitr::include_graphics('images/Inkedsalamatof_map.jpg')
 
 ```
 

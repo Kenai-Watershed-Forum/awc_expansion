@@ -1,5 +1,11 @@
 # Results
 
+```{r , canoe, echo = F, fig.cap = "Kenai Peninsula Trout Unlimited volunteers preparing for fieldwork at Suneva Lake in August 2021.", out.width=550, out.height=400}
+
+knitr::include_graphics('images/kptu_suneva_canoe.jpg')
+
+```
+
 ```{r , include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
 
@@ -74,10 +80,12 @@ url <- "https://docs.google.com/spreadsheets/d/1S0hwY4EQo9Xtz5d4UnSBCbZoJ0ft_HGQ
 sample_events <- read_sheet(url, sheet =  "A_Sample_Event") %>%
   transform(site_arrive_time = as_hms(site_arrive_time),
             site_depart_time = as_hms(site_depart_time)) %>%
-  select(-QC1,-QC2,-data_entry,-notes,-crew)
+  select(-QC1,-QC2,-data_entry,-notes,-crew) %>%
+  filter(!is.na(site))
 
 ### fish count
-fish_dat <- read_sheet(url, sheet = "F_Fish_ID") 
+fish_dat <- read_sheet(url, sheet = "F_Fish_ID") %>%
+  filter(!is.na(site))
 
 
 ### how many unique sampling events (unique date/site) did we have in 2021?
@@ -175,7 +183,7 @@ spp_ct_n %>%
 ```{r site-spp-ct, echo = F, fig.cap = "cap"}
 
 site_spp_ct %>%
-  kbl(caption = "Total fish capture count by species at each site. Use scroll bars to see full table.") %>%
+  kbl(caption = "Total fish capture count by species at each site. In the Online document, use scroll bars to see the full table.") %>%
   kable_paper(full_width = F, html_font = "Cambria", 
               bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
   kable_styling(latex_options = c("scale_down","striped")) %>%
@@ -197,3 +205,86 @@ new_stream_km <- 0.46
 ```
 
 Fish capture data and supporting documentation will be submitted to the Alaska Department of Fish and Game by mid-December 2021. Sites where anadromous fish have not previously been documented may be considered for addition to the Anadromous Waters Catalog. Pending acceptance of these data, the current estimate for total new stream kilometers that will be added to the AWC in 2021 is `r new_stream_km` km. See the [Discussion](#Discussion) section for further details on factors influencing yearly totals.
+
+```{r, echo = F}
+
+# prep data format for ARP report: https://www.adfg.alaska.gov/sf/SARR/AWC/index.cfm?ADFG=nomSubmit.about
+
+# determination 12/16/21: the data is formatted in such a way that it will be required to manually enter it into the ARP. Reformat field forms and database for 2022 to better match ARP format!
+
+# prep fish capture data ("fish_dat") in R, add location data manually in ARP formatted sheet
+z <- fish_dat %>%
+  
+  # rectify ARP column named "additional count"; leave blank if count = 1, make n-1 if count > 1
+  # presumed that count = 1 if additional count = 0
+  mutate(`Additional count (1)` = ifelse(fish_dat$count <= 1, "0",fish_dat$count - 1)) %>%
+  
+  # rename columns
+  rename(`Location ID (optional)` = site,
+         Date = site_depart_date,
+         Species = species,
+         `Life stage` = lifestage,
+         `Length (mm) (NO estimates or ranges)` = fl_mm,
+         `Length method` = length_method,
+         `Weight (g)` = wt_g,
+         `Disposition (1)` = disposition,
+         Comments = notes) %>%
+  
+  # create new columns
+  mutate(`Latitude (decimal degrees)` = "",
+         `Longitude (decimal degrees)` = "",
+         Datum = "",
+         `Coordinate determination method` = "",
+         `Name of water body` = "",
+         `Observer name (the first and last name of the person handling fish)` = "",
+         `Fish collection method` = "",
+         Sex = "",
+         Age = "",
+         `Age method (sample type)` = "",
+         `ADF&G GCL` = "",
+         `Additional count (2)` = "",
+         `Disposition (2)` = "",
+         `Anesthesia/ Sedative Used (Leave blank if none used)` = "",
+  
+  
+         
+         ) %>%
+  
+  # remove extraneous columns
+  select(-count,-camera_id,-photo_id) %>%
+    
+  # order columns to match ARP
+  select(
+  `Location ID (optional)`,
+  `Latitude (decimal degrees)`,
+  `Longitude (decimal degrees)`,
+  Datum,
+  `Coordinate determination method`,
+  `Name of water body`,
+  Date,
+  `Observer name (the first and last name of the person handling fish)`,
+  `Fish collection method`,
+  `Species`,
+  `Life stage`,
+  `Length (mm) (NO estimates or ranges)`,
+  `Length method`,
+  `Weight (g)`,
+  Sex,
+  Age,
+  `Age method (sample type)`,
+  `ADF&G GCL`,
+  `Additional count (1)`,
+  `Disposition (1)`,
+  `Additional count (2)`,
+  `Disposition (2)`,
+  `Anesthesia/ Sedative Used (Leave blank if none used)`,
+  Comments						
+  )
+  
+# export this doc and manually prep in excel for submission to ARP
+# next year : make sure data format does not require manual preparation in excel!
+
+
+```
+
+
