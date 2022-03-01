@@ -89,7 +89,7 @@ Prior to minnow trap deployment, we obtained all necessary permits from ADF&G in
 
 ## Fish capture and processing
 
-```{r, minnow-traps, echo = F, fig.cap = "Minnow traps being prepared at by Trout Unlimited volunteers at a training workshop at Soldotna Creek in June 2021", out.width=550, out.height=400}
+```{r, minnow-traps, echo = F, fig.cap = "Minnow traps being prepared at by Trout Unlimited volunteers at a training workshop at Soldotna Creek in June 2021"}
 
 knitr::include_graphics('images/Fish_Traps.jpg')
 

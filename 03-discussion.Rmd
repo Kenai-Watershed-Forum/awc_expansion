@@ -6,7 +6,7 @@
 
 In summer 2021 we surveyed sites primarily in the region North of Kenai/Soldotna within an hour's walking distance of the road system. In some cases where employees of Kenai Watershed Forum were visiting remote fly-in locations for fieldwork on separate projects, they also surveyed for presence of anadromous fish, thus leveraging resources among projects.
 
-Survey site selections were made primarily by visually assessing the overlaid map layers of the Anadromous Waters Catalog with the [USGS National Hydrography Database](https://www.usgs.gov/core-science-systems/ngp/national-hydrography) (NHD). In areas where previously documented anadromous stream or lake extents ended yet connected waterbodies continued upstream, we targeted sites suitable for minnow trapping and/or hook and line survey.
+Survey site selections were made primarily by visually assessing the overlaid map layers of the Anadromous Waters Catalog with the [USGS National Hydrography Database](https://www.usgs.gov/core-science-systems/ngp/national-hydrography)^[https://www.usgs.gov/core-science-systems/ngp/national-hydrography] (NHD). In areas where previously documented anadromous stream or lake extents ended yet connected waterbodies continued upstream, we targeted sites suitable for minnow trapping and/or hook and line survey.
 
 In one case, KWF was notified of a potentially important sampling location by colleagues with state and federal agencies. At this site, a stream segment that had not yet been documented as anadromous had been excavated by a landowner several weeks prior. KWF was able to document the resultant disturbed stream channel as anadromous. These efforts are further detailed below in the section [Highlights: Soldotna Creek Tributary](###%20Highlight:%20Soldotna%20Creek%20Tributary).
 
@@ -24,11 +24,11 @@ These results support several conclusions that will direct future fieldwork effo
 
 KWF was notified of a previously undocumented tributary segment in the Soldotna Creek drainage in July 2021. The tributary was documented as anadromous up to a road crossing approximately 100 m upstream from the Soldotna Creek mainstem, but the stream channel continued beyond. The stream segment upstream of the road crossing had been recently excavated as part of a new development project, but it was suspected that the modified channel still supported fish populations. KWF staff placed minnow traps at the most upstream locations where the traps could still be submerged. Over the course of several site visits we captured a total of 65 Coho Salmon and five Dolly Varden.
 
-KWF submitted these data in ADFG's September 2021 call for data, and documented the approximate paths of existing stream channels, supported by several dozen ground-truthing photos. These data are displayed in the map figure below, and are also accessible at [ArcGIS Online](https://www.arcgis.com/apps/webappviewer/index.html?id=04f8f5082147442bae030507a303b686&extent=-16811989.9598%2C8510367.6671%2C-16810169.803%2C8511166.6729%2C102100&showLayers=csv_417%3BconvertedByApolloMapping_1__shapefile_6944_0%3BAWC_2020_Layers_9843%3BWetlands_6390_0%3BWetlands_6390_1%3Bnhd_1571_2%3Bnhd_1571_3%3Bnhd_1571_4%3Bnhd_1571_5%3Bnhd_1571_6).
+KWF submitted these data in ADFG's September 2021 call for data, and documented the approximate paths of existing stream channels, supported by several dozen ground-truthing photos. These data are displayed in the map figure below, and are also accessible at [ArcGIS Online](https://arcg.is/1XO9n5)^[https://arcg.is/1XO9n5]).
 
-<iframe width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/1XO9n5">
 
-</iframe>
+<iframe width="500" height="400" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/0qrH45"></iframe>
+
 
 The post-hoc documentation of this previously unidentified salmon stream after it has been altered emphasizes the need for continued thorough efforts to document anadromous habitat, particularly in watersheds experiencing growth and development. Communication with property owners remains critical to the task of identifying previously undocumented anadromous habitat.
 
@@ -46,7 +46,7 @@ In two cases where map interpretation suggested presence of salmonids but we cap
 
     A site visit to the mouth of the creek flowing from Suneva Lake at its outlet at Cook Inlet will help determine if the waterway has potential to host anadromous species and may be part of future fieldwork.
 
-```{r suneva-outlet, echo = F, fig.cap = "Perched culvert near outlet of Suneva Lake, intersection with Sockeye Avenue, ", out.width=400, out.height=400, out.extra= "angle = 90"}
+```{r suneva-outlet, echo = F, fig.cap = "Perched culvert near outlet of Suneva Lake, intersection with Sockeye Avenue",  out.height=400, out.extra= "angle = 90"}
 
 knitr::include_graphics('images/suneva_culvert.png')
 
@@ -59,7 +59,7 @@ We visited the location where maps indicated that Salamatof Creek crosses the Ke
 
 At the road crossing we observed a culvert passage for Salamatof Creek below the highway, but no flowing water. The visible nearby body of water at this location appeared to be lotic in nature, and no outflow was readily evident.
 
-```{r salamatof-creek, echo = F, fig.cap = "Salamatof Creek drainange, North of Kenai, Alaska. Red X indicates location of fish passage barrier.", out.width=400, out.height=400}
+```{r salamatof-creek, echo = F, fig.cap = "Salamatof Creek drainange, North of Kenai, Alaska. Red X indicates location of fish passage barrier."}
 
 knitr::include_graphics('images/Inkedsalamatof_map.jpg')
 
@@ -72,10 +72,10 @@ Based on observations at the road crossing, it is possible that historical const
 We found opportunities to collaborate with multiple partner organizations and researchers as part of our field efforts. Highlights include:
 
 -   Kenai Peninsula Chapter of Trout Unlimited (KPTU)- In May 2021 we entered in to an agreement with KPTU to collaborate on a project funded by their Embrace-a-Stream program. The project also aims to expand and corroborate the Anadromous Waters Catalog, using citizen scientists trained by local biologists. In Summer 2021 Kenai Watershed Forum held a half-day training session on field methodology with fifteen participants, and held three sampling events. The collaboration will continue into Summer 2022.
--   Salamatof Native Association - We worked with staff from Salamatof Native Association
--   Kenai Watershed Forum Elodea Surveys
+-   Salamatof Native Association - We worked with staff from Salamatof Native Association who volunteered with our crew on four fieldwork days
+-   Kenai Watershed Forum Elodea Surveys - Crews with Kenai Watershed Forum performing surveys for the invasive aquatic plant Elodea were trained in minnow trapping techniques. On several trips to remote fly in lakes, they were able to survey for presence of juvenile salmonids as part of the same trip.
 
--- covid challeneges
+
 
 ### Outreach and other activities
 
@@ -87,6 +87,6 @@ In addition to fieldwork efforts aimed at prospecting for unidentified anadromou
 
 ### Future work
 
-collab w/ adfg to id sites ... caribou hills
+Fieldwork described in this report will continue in July - September 2022. 
 
-contnuing thru summer 2022
+A list of proposed 2022 field survey sites was updated in January 2022 and is maintained in the project online database [Google Sheet](https://bit.ly/eas_data︎)^[https://bit.ly/eas_data] (see the tab titled “E_All_Sites”). These sites are visible in the project map as open red circles (see section 2.1 Site selection).

@@ -1,153 +1,152 @@
-"","Location ID (optional)","Latitude (decimal degrees)","Longitude (decimal degrees)","Datum","Coordinate determination method","Name of water body","Date","Observer name (the first and last name of the person handling fish)","Fish collection method","Species","Life stage","Length (mm) (NO estimates or ranges)","Length method","Weight (g)","Sex","Age","Age method (sample type)","ADF&G GCL","Additional count (1)","Disposition (1)","Additional count (2)","Disposition (2)","Anesthesia/ Sedative Used (Leave blank if none used)","Comments"
-"1","Lower Soldotna Creek","","","","","",2021-05-06,"","","ninespine stickleback","not recorded",40,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"2","Lower Soldotna Creek","","","","","",2021-05-06,"","","ninespine stickleback","not recorded",58,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"3","Lower Soldotna Creek","","","","","",2021-05-06,"","","ninespine stickleback","not recorded",61,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"4","Lower Soldotna Creek","","","","","",2021-05-06,"","","rainbow trout","juvenile",65,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"5","Lower Soldotna Creek","","","","","",2021-05-06,"","","Chinook salmon","juvenile",92,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"6","McLain Lake NE","","","","","",2021-05-11,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","","sculpin QC'ed by B. Meyer"
-"7","McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","32","ID'ed and Released","","","",NA
-"8","McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
-"9","McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","17","ID'ed and Released","","","",NA
-"10","McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","99","ID'ed and Released","","","",NA
-"11","McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","29","ID'ed and Released","","","",NA
-"12","McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
-"13","Snag Lake South","","","","","",2021-05-12,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","","QC'ed by B. Meyer"
-"14","Snag Lake South","","","","","",2021-05-12,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","43","ID'ed and Released","","","",NA
-"15","North Fork Anchor River","","","","","",2021-05-29,"","","lamprey-unspecified","not recorded",NA,NA,NA,"","","","","99","ID'ed and Released","","","",NA
-"16","North Fork Anchor River","","","","","",2021-05-29,"","","Pacific salmon-unspecified","juvenile",NA,NA,NA,"","","","","224","ID'ed and Released","","","",NA
-"17","North Fork Anchor River","","","","","",2021-05-29,"","","sculpin-unspecified","not recorded",NA,NA,NA,"","","","","3","ID'ed and Released","","","",NA
-"18","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"19","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"20","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"21","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"22","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"23","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",65,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"24","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","","cute"
-"25","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"26","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"27","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"28","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"29","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"30","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"31","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"32","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"33","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"34","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"35","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",80,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"36","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",80,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"37","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",85,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"38","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",85,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"39","Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",90,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"40","Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","juvenile",90,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"41","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",100,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"42","Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","juvenile",100,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"43","Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","juvenile",100,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"44","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"45","Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"46","Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
-"47","Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","23","ID'ed and Released","","","",NA
-"48","Lower Soldotna Creek","","","","","",2021-06-09,"","","Chinook salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"49","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",65,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"50","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"51","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",150,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"52","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"53","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"54","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"55","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","","BM, DA, Rachel Sensabaugh, Roger Sensabaugh"
-"56","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"57","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"58","Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"59","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"60","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"61","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"62","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"63","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"64","Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"65","Lower Soldotna Creek","","","","","",2021-06-09,"","","slimy sculpin","juvenile",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
-"66","Lower Soldotna Creek","","","","","",2021-06-23,"","","Chinook salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"67","Lower Soldotna Creek","","","","","",2021-06-23,"","","coho salmon","juvenile",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
-"68","Lower Soldotna Creek","","","","","",2021-06-23,"","","slimy sculpin","juvenile",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"69","Lower Soldotna Creek","","","","","",2021-06-28,"","","coho salmon","juvenile",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
-"70","Lower Soldotna Creek","","","","","",2021-06-28,"","","lamprey-unspecified","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"71","Lower Soldotna Creek","","","","","",2021-06-28,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","3","ID'ed and Released","","","",NA
-"72","Lower Soldotna Creek","","","","","",2021-06-28,"","","stickleback-unspecified","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"73","Lower Soldotna Creek","","","","","",2021-07-07,"","","Chinook salmon","juvenile",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"74","Lower Soldotna Creek","","","","","",2021-07-07,"","","coho salmon","juvenile",NA,NA,NA,"","","","","14","ID'ed and Released","","","",NA
-"75","Lower Soldotna Creek","","","","","",2021-07-07,"","","lamprey-unspecified","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"76","Lower Soldotna Creek","","","","","",2021-07-07,"","","rainbow trout","not recorded",NA,NA,NA,"","","","","3","ID'ed and Released","","","",NA
-"77","Lower Soldotna Creek","","","","","",2021-07-07,"","","slimy sculpin","juvenile",NA,NA,NA,"","","","","13","ID'ed and Released","","","",NA
-"78","Lower Soldotna Creek","","","","","",2021-07-10,"","","coho salmon","juvenile",NA,NA,NA,"","","","","16","ID'ed and Released","","","",NA
-"79","Lower Soldotna Creek","","","","","",2021-07-10,"","","Dolly Varden","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"80","Lower Soldotna Creek","","","","","",2021-07-10,"","","rainbow trout","parr",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
-"81","Lower Soldotna Creek","","","","","",2021-07-10,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
-"82","Lower Soldotna Creek","","","","","",2021-07-13,"","","rainbow trout","juvenile",20,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"83","Lower Soldotna Creek","","","","","",2021-07-13,"","","slimy sculpin","not recorded",20,"Total",NA,"","","","","0","Measured and Released","","","",NA
-"84","Lower Soldotna Creek","","","","","",2021-07-13,"","","coho salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"85","Lower Soldotna Creek","","","","","",2021-07-13,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"86","Lower Soldotna Creek","","","","","",2021-07-22,"","","coho salmon","juvenile",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
-"87","Lower Soldotna Creek","","","","","",2021-07-22,"","","rainbow trout","parr",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"88","Lower Soldotna Creek","","","","","",2021-07-22,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
-"89","Lower Soldotna Creek","","","","","",2021-07-22,"","","sockeye salmon","parr",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"90","Bernice Culvert","","","","","",2021-07-30,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","50","ID'ed and Released","","","",NA
-"91","Salamatof Creek","","","","","",2021-07-30,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","444","ID'ed and Released","","","",NA
-"92","Suneva Lake","","","","","",2021-07-30,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","7","ID'ed and Released","","","",NA
-"93","Suneva Lake","","","","","",2021-07-30,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","42","ID'ed and Released","","","","caught most of fish near culvert"
-"94","Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","","fast capture, three photos, no bait used"
-"95","Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"96","Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",92,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"97","Soldotna Creek Parcel","","","","","",2021-08-09,"","","Dolly Varden","juvenile",92,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"98","Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"99","Unknown Nikiski Lake 1","","","","","",2021-08-09,"","","ninespine stickleback","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"100","Unknown Nikiski Lake 2","","","","","",2021-08-09,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","6","ID'ed and Released","","","",NA
-"101","Unknown Nikiski Lake 2","","","","","",2021-08-09,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","7","ID'ed and Released","","","",NA
-"102","West Beck Lake 1","","","","","",2021-08-12,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"103","West Beck Lake 1","","","","","",2021-08-12,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","75","ID'ed and Released","","","",NA
-"104","West Beck Lake 2","","","","","",2021-08-12,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"105","Lower Beaver Creek","","","","","",2021-08-23,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"106","Lower Beaver Creek","","","","","",2021-08-23,"","","coho salmon","juvenile",100,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"107","Lower Beaver Creek","","","","","",2021-08-23,"","","coho salmon","juvenile",NA,NA,NA,"","","","","13","ID'ed and Released","","","",NA
-"108","Lower Beaver Creek","","","","","",2021-08-23,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"109","Lower Beaver Creek","","","","","",2021-08-23,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"110","Soldotna Creek Parcel","","","","","",2021-08-24,"","","Dolly Varden","juvenile",110,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"111","North Nikiski Lake 1.1","","","","","",2021-08-31,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"112","North Nikiski Lake 1.2","","","","","",2021-08-31,"","","coho salmon","juvenile",72,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"113","North Nikiski Lake 1.2","","","","","",2021-08-31,"","","coho salmon","juvenile",83,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"114","North Nikiski Lake 1.1","","","","","",2021-08-31,"","","rainbow trout","juvenile",84,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"115","Suneva Lake","","","","","",2021-08-31,"","","stickleback-unspecified","juvenile",95,"Total",NA,"","","","","9","Measured and Released","","","",NA
-"116","North Nikiski Lake 1.1","","","","","",2021-08-31,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"117","North Nikiski Lake 1.1","","","","","",2021-08-31,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
-"118","North Nikiski Lake 1.2","","","","","",2021-08-31,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
-"119","North Nikiski Lake 2","","","","","",2021-08-31,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
-"120","North Nikiski Lake 2","","","","","",2021-08-31,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","7","ID'ed and Released","","","",NA
-"121","North Nikiski Lake 1.2","","","","","",2021-08-31,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","48","ID'ed and Released","","","",NA
-"122","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"123","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",53,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"124","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",54,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"125","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",54,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"126","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",58,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"127","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",59,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"128","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",59,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"129","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"130","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"131","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"132","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",61,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"133","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"134","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"135","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"136","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",68,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"137","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",71,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"138","Soldotna Creek Parcel","","","","","",2021-09-02,"","","Dolly Varden","juvenile",91,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"139","Soldotna Creek Parcel","","","","","",2021-09-02,"","","Dolly Varden","juvenile",120,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"140","Soldotna Creek Parcel","","","","","",2021-09-02,"","","Dolly Varden","juvenile",125,"Fork",NA,"","","","","0","Measured and Released","","","",NA
-"141","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",NA,NA,NA,"","","","","30","ID'ed and Released","","","",NA
-"142","Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",NA,NA,NA,"","","","","13","ID'ed and Released","","","",NA
-"143","Upper Ohmer Lake","","","","","",2021-09-04,"","","Dolly Varden","adult",229,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 9"""
-"144","Upper Ohmer Lake","","","","","",2021-09-04,"","","Dolly Varden","adult",229,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 9"""
-"145","Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",254,"Fork",NA,"","","","","0","Measured and Released","","","","escaped before photo. fork length 10"""
-"146","Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",254,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 10"""
-"147","Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",254,"Fork",NA,"","","","","0","Measured and Released","","","","escaped before photo. fork length 10"""
-"148","Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",406,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 16"""
-"149","Bird Lake","","","","","",2021-09-16,"","","rainbow trout","adult",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"150","Bird Lake","","","","","",2021-09-16,"","","rainbow trout","adult",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
-"151","Bird Lake","","","","","",2021-09-16,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
-"152",NA,"","","","","",NA,"","",NA,NA,NA,NA,NA,"","","","",NA,"ID'ed and Released","","","",NA
+"Location ID (optional)","Latitude (decimal degrees)","Longitude (decimal degrees)","Datum","Coordinate determination method","Name of water body","Date","Observer name (the first and last name of the person handling fish)","Fish collection method","Species","Life stage","Length (mm) (NO estimates or ranges)","Length method","Weight (g)","Sex","Age","Age method (sample type)","ADF&G GCL","Additional count (1)","Disposition (1)","Additional count (2)","Disposition (2)","Anesthesia/ Sedative Used (Leave blank if none used)","Comments"
+"Lower Soldotna Creek","","","","","",2021-05-06,"","","ninespine stickleback","not recorded",40,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-05-06,"","","ninespine stickleback","not recorded",58,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-05-06,"","","ninespine stickleback","not recorded",61,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-05-06,"","","rainbow trout","juvenile",65,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-05-06,"","","Chinook salmon","juvenile",92,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"McLain Lake NE","","","","","",2021-05-11,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","","sculpin QC'ed by B. Meyer"
+"McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","32","ID'ed and Released","","","",NA
+"McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
+"McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","17","ID'ed and Released","","","",NA
+"McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","99","ID'ed and Released","","","",NA
+"McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","29","ID'ed and Released","","","",NA
+"McLain Lake NE","","","","","",2021-05-11,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
+"Snag Lake South","","","","","",2021-05-12,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","","QC'ed by B. Meyer"
+"Snag Lake South","","","","","",2021-05-12,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","43","ID'ed and Released","","","",NA
+"North Fork Anchor River","","","","","",2021-05-29,"","","lamprey-unspecified","not recorded",NA,NA,NA,"","","","","99","ID'ed and Released","","","",NA
+"North Fork Anchor River","","","","","",2021-05-29,"","","Pacific salmon-unspecified","juvenile",NA,NA,NA,"","","","","224","ID'ed and Released","","","",NA
+"North Fork Anchor River","","","","","",2021-05-29,"","","sculpin-unspecified","not recorded",NA,NA,NA,"","","","","3","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",65,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","","cute"
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",80,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",80,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",85,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",85,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","rainbow trout","parr",90,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","juvenile",90,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",100,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","juvenile",100,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","juvenile",100,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-05,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","23","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","Chinook salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",65,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",70,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",150,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","","BM, DA, Rachel Sensabaugh, Roger Sensabaugh"
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-09,"","","slimy sculpin","juvenile",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-23,"","","Chinook salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-23,"","","coho salmon","juvenile",NA,NA,NA,"","","","","9","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-23,"","","slimy sculpin","juvenile",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-28,"","","coho salmon","juvenile",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-28,"","","lamprey-unspecified","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-28,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","3","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-06-28,"","","stickleback-unspecified","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-07,"","","Chinook salmon","juvenile",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-07,"","","coho salmon","juvenile",NA,NA,NA,"","","","","14","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-07,"","","lamprey-unspecified","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-07,"","","rainbow trout","not recorded",NA,NA,NA,"","","","","3","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-07,"","","slimy sculpin","juvenile",NA,NA,NA,"","","","","13","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-10,"","","coho salmon","juvenile",NA,NA,NA,"","","","","16","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-10,"","","Dolly Varden","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-10,"","","rainbow trout","parr",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-10,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-13,"","","rainbow trout","juvenile",20,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-13,"","","slimy sculpin","not recorded",20,"Total",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-13,"","","coho salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-13,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-22,"","","coho salmon","juvenile",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-22,"","","rainbow trout","parr",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-22,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
+"Lower Soldotna Creek","","","","","",2021-07-22,"","","sockeye salmon","parr",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Bernice Culvert","","","","","",2021-07-30,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","50","ID'ed and Released","","","",NA
+"Salamatof Creek","","","","","",2021-07-30,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","444","ID'ed and Released","","","",NA
+"Suneva Lake","","","","","",2021-07-30,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","7","ID'ed and Released","","","",NA
+"Suneva Lake","","","","","",2021-07-30,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","42","ID'ed and Released","","","","caught most of fish near culvert"
+"Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","","fast capture, three photos, no bait used"
+"Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",92,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-08-09,"","","Dolly Varden","juvenile",92,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-08-09,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Unknown Nikiski Lake 1","","","","","",2021-08-09,"","","ninespine stickleback","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"Unknown Nikiski Lake 2","","","","","",2021-08-09,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","6","ID'ed and Released","","","",NA
+"Unknown Nikiski Lake 2","","","","","",2021-08-09,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","7","ID'ed and Released","","","",NA
+"West Beck Lake 1","","","","","",2021-08-12,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"West Beck Lake 1","","","","","",2021-08-12,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","75","ID'ed and Released","","","",NA
+"West Beck Lake 2","","","","","",2021-08-12,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"Lower Beaver Creek","","","","","",2021-08-23,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Beaver Creek","","","","","",2021-08-23,"","","coho salmon","juvenile",100,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Lower Beaver Creek","","","","","",2021-08-23,"","","coho salmon","juvenile",NA,NA,NA,"","","","","13","ID'ed and Released","","","",NA
+"Lower Beaver Creek","","","","","",2021-08-23,"","","rainbow trout","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Lower Beaver Creek","","","","","",2021-08-23,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-08-24,"","","Dolly Varden","juvenile",110,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"North Nikiski Lake 1.1","","","","","",2021-08-31,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"North Nikiski Lake 1.2","","","","","",2021-08-31,"","","coho salmon","juvenile",72,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"North Nikiski Lake 1.2","","","","","",2021-08-31,"","","coho salmon","juvenile",83,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"North Nikiski Lake 1.1","","","","","",2021-08-31,"","","rainbow trout","juvenile",84,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Suneva Lake","","","","","",2021-08-31,"","","stickleback-unspecified","juvenile",95,"Total",NA,"","","","","9","Measured and Released","","","",NA
+"North Nikiski Lake 1.1","","","","","",2021-08-31,"","","coho salmon","juvenile",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"North Nikiski Lake 1.1","","","","","",2021-08-31,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
+"North Nikiski Lake 1.2","","","","","",2021-08-31,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","8","ID'ed and Released","","","",NA
+"North Nikiski Lake 2","","","","","",2021-08-31,"","","slimy sculpin","not recorded",NA,NA,NA,"","","","","1","ID'ed and Released","","","",NA
+"North Nikiski Lake 2","","","","","",2021-08-31,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","7","ID'ed and Released","","","",NA
+"North Nikiski Lake 1.2","","","","","",2021-08-31,"","","threespine stickleback","not recorded",NA,NA,NA,"","","","","48","ID'ed and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",50,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",53,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",54,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",54,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",58,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",59,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",59,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",60,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",61,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",62,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",68,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",71,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","Dolly Varden","juvenile",91,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","Dolly Varden","juvenile",120,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","Dolly Varden","juvenile",125,"Fork",NA,"","","","","0","Measured and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",NA,NA,NA,"","","","","30","ID'ed and Released","","","",NA
+"Soldotna Creek Parcel","","","","","",2021-09-02,"","","coho salmon","juvenile",NA,NA,NA,"","","","","13","ID'ed and Released","","","",NA
+"Upper Ohmer Lake","","","","","",2021-09-04,"","","Dolly Varden","adult",229,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 9"""
+"Upper Ohmer Lake","","","","","",2021-09-04,"","","Dolly Varden","adult",229,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 9"""
+"Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",254,"Fork",NA,"","","","","0","Measured and Released","","","","escaped before photo. fork length 10"""
+"Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",254,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 10"""
+"Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",254,"Fork",NA,"","","","","0","Measured and Released","","","","escaped before photo. fork length 10"""
+"Upper Ohmer Lake","","","","","",2021-09-04,"","","rainbow trout","adult",406,"Fork",NA,"","","","","0","Measured and Released","","","","fork length 16"""
+"Bird Lake","","","","","",2021-09-16,"","","rainbow trout","adult",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Bird Lake","","","","","",2021-09-16,"","","rainbow trout","adult",NA,NA,NA,"","","","","0","ID'ed and Released","","","",NA
+"Bird Lake","","","","","",2021-09-16,"","","stickleback-unspecified","not recorded",NA,NA,NA,"","","","","2","ID'ed and Released","","","",NA
