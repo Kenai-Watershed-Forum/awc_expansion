@@ -25,6 +25,7 @@ library(ggpubr)
 library(plotrix)
 library(packrat)
 library(foreign)
+library(janitor)
 
 # set plotting themes
 
@@ -62,7 +63,7 @@ Fish trapping sites are identified using KWF's database and further prioritized 
 
 -   Ease of accessibility via foot travel or all-terrain vehicle (ATV) based on travel time and ability to obtain private property access
 
--   Proportion of stream or lake adjacent to developed parcels 
+-   Proportion of stream or lake adjacent to developed parcels
 
 -   Habitat with medium-high risk assessment rating using the KPFHP's "Freshwater Potential Threats Ranking Table"
 
@@ -85,7 +86,6 @@ Prior to minnow trap deployment, we obtained all necessary permits from ADF&G in
 # generate a list of all un
 
 ```
-
 
 ## Fish capture and processing
 
@@ -112,3 +112,40 @@ These data will be utilized to submit nominations for the inclusion of new miles
 ## Habitat connectivity
 
 In some cases where maps indicated a strong likelihood of anadromous habitat yet we did not capture salmonids, we visited additional sites within the drainage where potential barriers to fish passage may exist such as road crossings or modified lake outlets. We photographed and recorded coordinates at these locations if potential fish barriers were apparent and submitted them to ADF&G for potential inclusion in their [Fish Passage database](https://www.adfg.alaska.gov/index.cfm?adfg=fishpassage.database).
+
+```{r , echo = F, eval = F}
+
+# which are the sites we will visit in 2022?
+
+
+## read in database
+url <- "https://docs.google.com/spreadsheets/d/1S0hwY4EQo9Xtz5d4UnSBCbZoJ0ft_HGQrarfmA5dwNY/edit#gid=0"
+
+## prep data sources
+
+### sample events
+sample_events <- read_sheet(url, sheet =  "A_Sample_Event") %>%
+  transform(site_arrive_time = as_hms(site_arrive_time),
+            site_depart_time = as_hms(site_depart_time)) %>%
+  select(-QC1,-QC2,-data_entry,-notes,-crew) %>%
+  filter(!is.na(site))
+
+
+# read in all sample events that occurred in 2021
+all_events_2021 <- read_sheet(url, sheet = "A_Sample_Event") %>%
+  clean_names() %>%
+  select(site,latitude,longitude) %>%
+  distinct()
+
+# read in all sites, both new and old
+all_sites <- read_sheet(url, sheet = "E_All_Sites") %>%
+  clean_names() %>%
+  rename(longitude = long,
+         latitude = lat)
+#%>%
+  select(site,latitude,longitude)
+
+
+
+
+```

@@ -89,7 +89,7 @@ fish_dat <- read_sheet(url, sheet = "F_Fish_ID") %>%
 
 
 ### how many unique sampling events (unique date/site) did we have in 2021?
-n_events <- sample_events%>%
+n_events <- sample_events %>%
   group_by(site,site_arrive_time) %>%
   tally() %>%
   nrow() %>%
