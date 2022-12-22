@@ -249,9 +249,6 @@ arp <- fish_dat %>%
          `Additional count (2)` = "",
          `Disposition (2)` = "",
          `Anesthesia/ Sedative Used (Leave blank if none used)` = "",
-  
-  
-         
          ) %>%
   
   # remove extraneous columns
@@ -288,7 +285,10 @@ arp <- fish_dat %>%
 # export this doc and manually prep in excel for submission to ARP
 # next year : make sure data format does not require manual preparation in excel!
 
-write.csv(arp,"output/arp_2021.csv", row.names = F)
+arp22 <- arp %>%
+  filter(Date > "2022-01-01")
+
+write.csv(arp22,"output/arp_2022.csv", row.names = F)
 
 
 ```

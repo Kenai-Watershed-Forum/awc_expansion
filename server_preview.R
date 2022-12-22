@@ -1,4 +1,4 @@
-# run this function manually to create aut-refreshing preview in web browser.
+# run this function manually to create auto-refreshing preview in web browser.
 # https://bookdown.org/yihui/bookdown/serve-the-book.html
 
 # load packages
